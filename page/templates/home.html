@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+</head>
+<body>
+    <h1>문장 단어 개수 세기</h1>
+    <form action="{% url 'result' %}">
+        <textarea name="fulltext" id="fulltext" cols="40" rows="10"></textarea><br/>
+        <input type="submit" />
+    </form>
+<br>
+    <a href="{% url 'about' %}">about page</a>
+</body>
+</html>
